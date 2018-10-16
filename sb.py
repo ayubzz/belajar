@@ -240,7 +240,7 @@ def sendMention(to, mid, firstmessage):
         timeNow = datetime.now(tz=tz)
         eltime = time.time() - mulai
         bot = runtime(eltime)
-        text += mention+"◐ Jam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\n⏩ Group : "+str(len(gid))+"\n⏩ Teman : "+str(len(teman))+"\n⏩ Expired : In "+hari+"\n⏩ Version : ANTIJS2\n⏩ Tanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\n⏩ Runtime : \n • "+bot
+        text += mention+"◐ Jam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\n⏩ Group : "+str(len(gid))+"\n⏩ Teman : "+str(len(teman))+"\n⏩ Expired : In "+hari+"\n⏩ Version : SELFBOT\n⏩ Tanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\n⏩ Runtime : \n • "+bot
         cl.sendMessage(to, text, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         cl.sendMessage(to, "[ INFO ] Error :\n" + str(error))
@@ -288,7 +288,7 @@ def help():
                   "┃  🇮🇩SELFBOT MENU 🇮🇩 " + "\n" + \
                   "┣•━━━━━━━━━━━━━━━━" + "\n" + \
                   "┣│🇮🇩│•" + key + "Runtime" + "\n" + \
-		          "┣│🇮🇩│•" + key + "Mid @" + "\n" + \
+		  "┣│🇮🇩│•" + key + "Mid @" + "\n" + \
                   "┣│🇮🇩│•" + key + "Me\n" + \
                   "┣│🇮🇩│•" + key + "Mid「@」\n" + \
                   "┣│🇮🇩│•" + key + "Info「@」\n" + \
@@ -316,7 +316,6 @@ def help():
                   "┣│🇮🇩│•" + key + "Sider「on/off」\n" + \
                   "┣│🇮🇩│•" + key + "Updatefoto\n" + \
                   "┣│🇮🇩│•" + key + "Updategrup\n" + \
-                  "┣│🇮🇩│•" + key + "Updatebot\n" + \
                   "┣│🇮🇩│•" + key + "Broadcast:「Text」\n" + \
                   "┣│🇮🇩│•" + key + "Setkey「New Key」\n" + \
                   "┣│🇮🇩│•" + key + "Mykey\n" + \
@@ -1612,7 +1611,7 @@ def bot(op):
                                          msgs = "Welcome Msg sudah tidak aktif"
                                     cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)
 
-                        elif ("Kick " in msg.text):
+                        elif ("Dupak " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
