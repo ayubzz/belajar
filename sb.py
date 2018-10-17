@@ -10,8 +10,8 @@ from googletrans import Translator
 import youtube_dl
 # I LOVE YOU 🇮🇩INDONESIA🇮🇩
 
-#cl = LineClient()
-cl = LineClient(authToken='Ey1z2uvQElVfBunoAuAb.1puhAv76XOt1+wD9JAIPQW.uOPnb0agshOHZqnt0aBl2SMzvEarp35KTUB0GCXpeVk=')
+cl = LineClient()
+#cl = LineClient(authToken='token')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
