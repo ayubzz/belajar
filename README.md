@@ -14,9 +14,11 @@ sudo pip3 install pafy
 sudo pip3 install wikipedia
 sudo pip3 install tweepy
 sudo pip3 install youtube_dl
-git clone https://github.com/ayubzz/belajar
-cd belajar
+git clone https://github.com/ayubzz/sb
+cd sb
 python3 sb.py
+
+
 INSTALL Di TERMUX :
 
 pkg update
@@ -35,6 +37,6 @@ pip3 install goslate
 pip3 install wikipedia
 pip3 install youtube_dl
 pip3 install tweepy
-git clone https://github.com/ayubzz/belajar
+git clone https://github.com/ayubzz/sb
 cd belajar
 python3 sb.py
