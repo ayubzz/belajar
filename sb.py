@@ -1,5 +1,5 @@
 from LINEPY import *
-from akad.ttypes import *
+from LINEPY import *
 from multiprocessing import Pool, Process
 from time import sleep
 import pytz, datetime, pafy, time, timeit, random, sys, ast, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, wikipedia
