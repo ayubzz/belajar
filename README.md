@@ -17,7 +17,7 @@ SERVER/ VPS :
 - `sudo pip3 install youtube_dl`
 - `git clone https://github.com/ayubzz/sb`
 - `cd sb`
-- `python ajs.py`
+- `python sb.py`
 
 INSTALL Di TERMUX :
 - `pkg update`
