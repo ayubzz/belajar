@@ -16,7 +16,7 @@ SERVER/ VPS :
 - `sudo pip3 install tweepy`
 - `sudo pip3 install youtube_dl`
 - `git clone https://github.com/ayubzz/sb`
-- `cd ajs2`
+- `cd sb`
 - `python ajs.py`
 
 INSTALL Di TERMUX :
@@ -37,5 +37,5 @@ INSTALL Di TERMUX :
 - `pip3 install youtube_dl`
 - `pip3 install tweepy`
 - `git clone https://github.com/ayubzz/sb`
-- `cd ajs2`
+- `cd sb`
 - `python3 sb.py`
