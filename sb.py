@@ -8,7 +8,6 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
-# I LOVE YOU 🇮🇩INDONESIA🇮🇩
 
 cl = LineClient()
 #cl = LineClient(authToken='token')
