@@ -12,8 +12,8 @@ import youtube_dl
 cl = LineClient()
 #cl = LineClient(authToken='token')
 cl.log("Auth Token : " + str(cl.authToken))
-channel = LineChannel(cl)
-cl.log("Channel Access Token : " + str(channel.channelAccessToken))
+#channel = LineChannel(cl)
+#cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
 poll = LinePoll(cl)
@@ -89,7 +89,7 @@ wait = {
     "sticker":False,
     "selfbot":True,
     "mention":"SINI KAK GABUNG CHAT AJH GA USAH NGINTIP😊",
-    "Respontag":"I LOVE YOU 🇮🇩INDONESIA🇮🇩",
+    "Respontag":"Cuma jones yg Suka Tag Kamu Jones Tag q.",
     "welcome":"Selamat datang & semoga betah",
     "comment":"Like By ayubzz",
     "message":"Terimakasih sudah add saya 😃",
